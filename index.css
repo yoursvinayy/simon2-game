@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    width: 130px;
+    height: 130px;
+    
+    font-size: 20px;
+    margin: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+
+/* Add additional styles as needed */
+.red {
+    background-color: #d46249;
+}
+
+.yellow {
+    background-color: #cfac39;
+}
+
+.green {
+    background-color: #55ac58;
+}
+
+.black {
+    background-color: #4675b2;
+    color: #fff;
+}
+
+
+
+.flash{
+    background-color: rgb(252, 0, 0);
+}
+.userflash{
+    background-color: rgb(14, 14, 14);
+}
+@media (max-width: 768px) {
+    body {
+        margin: 80px;
+        font-size: 14px;
+    }
+    h2{
+        font-size: 12px; 
+    }
+
+    .btn {
+        width: 60px;
+        height: 60px;
+        padding-top: 10px;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+}
